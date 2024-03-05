@@ -562,7 +562,7 @@ fieldset:disabled .btn {
   }
 }
 @media (max-width: 768px) {
-    h1 {
+  h1 {
     font-size: 80px;
   }
   .line {
@@ -575,6 +575,13 @@ fieldset:disabled .btn {
     max-width: 210px;
     max-height: 210px;
     top: 150px;
+    left: 55vw;
+  }
+  .btn-intro {
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
   }
   .footer {
     line-height: 1;
@@ -592,7 +599,6 @@ fieldset:disabled .btn {
   }
 }
 @media (max-width: 640px) {
-
   .header {
     position: relative;
     background-size: cover;
