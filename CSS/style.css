@@ -145,6 +145,7 @@ body {
 }
 .header {
   min-height: 100vh;
+  height: auto;
   padding-bottom: 80px;
   background-image: url(../IMG/white.jpeg);
   background-repeat: no-repeat;
@@ -686,17 +687,7 @@ fieldset:disabled .btn {
     margin: 10px auto 15px;
   }
 }
-/* @media (max-width: 640px) {
-  .wrapper-map {
-    max-height: 140px;
-    overflow: hidden;
-  }
-  .map {
-    width: 330px;
-    height: 100%;
-    margin: 0 auto;
-  }
-} */
+
 @media (max-width: 480px) {
   h1 {
     font-size: 60px;
