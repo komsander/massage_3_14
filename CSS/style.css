@@ -144,7 +144,7 @@ body {
   color: var(--main-color4);
 }
 .header {
-  height: 110lvh;
+  height: 110svh;
   height: auto;
 
   background-image: url(../IMG/white.jpeg);
