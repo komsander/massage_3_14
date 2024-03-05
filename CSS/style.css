@@ -562,6 +562,9 @@ fieldset:disabled .btn {
   }
 }
 @media (max-width: 768px) {
+    h1 {
+    font-size: 80px;
+  }
   .line {
     margin: 5px auto;
   }
@@ -569,8 +572,8 @@ fieldset:disabled .btn {
     gap: 30px;
   }
   .shape {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 270px;
+    max-height: 270px;
     top: 150px;
   }
   .footer {
@@ -589,9 +592,7 @@ fieldset:disabled .btn {
   }
 }
 @media (max-width: 640px) {
-  h1 {
-    font-size: 80px;
-  }
+
   .header {
     position: relative;
     background-size: cover;
