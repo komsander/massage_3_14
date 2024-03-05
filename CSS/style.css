@@ -114,6 +114,23 @@ body {
   text-decoration: none;
   background-color: var(--main-color1);
 }
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem #8ea993;
+}
+.navbar-light .navbar-toggler {
+  color: var(--main-color4);
+  border-color: var(--main-color4);
+  box-shadow: none;
+}
+.navbar-toggler:hover {
+  box-shadow: 0 0 0 0.15rem #8ea993;
+}
 
 .nav-heading {
   font-size: 12;
@@ -127,8 +144,8 @@ body {
   color: var(--main-color4);
 }
 .header {
-  height: 95vh;
-  padding: 40px 0 80px;
+  min-height: 100vh;
+  padding-bottom: 80px;
   background-image: url(../IMG/white.jpeg);
   background-repeat: no-repeat;
   background-position: center 80%;
@@ -144,10 +161,11 @@ h1 {
   padding-top: 10%;
   font-family: "Philosopher", sans-serif;
   font-style: normal;
-  font-size: clamp(24px, 2vw + 1rem, 48px);
+  font-size: 150px;
   font-weight: 700;
-  color: var(--main-color4);
-  visibility: hidden;
+  color: var(--main-color7);
+  text-shadow: 1px 1px 3px #4a553b;
+  /* visibility: hidden; */
 }
 h2 {
   font-family: "Philosopher", sans-serif;
@@ -199,6 +217,19 @@ h5 {
   background: linear-gradient(145deg, #eff0f2, #c9cacb);
   box-shadow: 20px 20px 60px #bebec0, -20px -20px 60px #ffffff;
 }
+.btn-modal {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 100;
+  color: var(--main-color4);
+  font-family: "Philosopher", sans-serif;
+
+  border-radius: 50px;
+  background: linear-gradient(145deg, #eff0f2, #c9cacb);
+  box-shadow: 20px 20px 60px #bebec0, -20px -20px 60px #ffffff;
+}
+
 .btn-intro:hover,
 .btn-intro:visited {
   border-radius: 50px;
@@ -495,6 +526,7 @@ fieldset:disabled .btn {
 @media (max-width: 1024px) {
   h1 {
     padding-top: 0;
+    font-size: 110px;
   }
   .intro {
     padding: 70px 0 40px;
@@ -525,6 +557,9 @@ fieldset:disabled .btn {
   .header {
     height: auto;
   }
+  h1 {
+    font-size: 100px;
+  }
 }
 @media (max-width: 768px) {
   .line {
@@ -554,6 +589,9 @@ fieldset:disabled .btn {
   }
 }
 @media (max-width: 640px) {
+  h1 {
+    font-size: 80px;
+  }
   .header {
     position: relative;
     background-size: cover;
@@ -653,6 +691,9 @@ fieldset:disabled .btn {
   }
 } */
 @media (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
   .py-5 {
     padding-bottom: 30px !important;
   }
@@ -725,7 +766,10 @@ fieldset:disabled .btn {
     transition: 2s;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
+  h1 {
+    font-size: 50px;
+  }
   .btn-intro {
     font-size: 13px;
   }
