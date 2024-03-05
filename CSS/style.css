@@ -146,7 +146,7 @@ body {
 .header {
   min-height: 100vh;
   height: auto;
-  padding-bottom: 80px;
+
   background-image: url(../IMG/white.jpeg);
   background-repeat: no-repeat;
   background-position: center 80%;
@@ -558,26 +558,24 @@ fieldset:disabled .btn {
   .header {
     height: auto;
   }
-  h1 {
-    font-size: 100px;
-  }
-}
-@media (max-width: 768px) {
-  h1 {
-    font-size: 80px;
-  }
-  .line {
-    margin: 5px auto;
-  }
-  .contacts-content {
-    gap: 30px;
-  }
   .shape {
     max-width: 210px;
     max-height: 210px;
     top: 150px;
     left: 55vw;
   }
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .line {
+    margin: 5px auto;
+  }
+  .contacts-content {
+    gap: 30px;
+  }
+
   .btn-intro {
     padding: 8px 15px;
     margin-top: 10px;
