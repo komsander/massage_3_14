@@ -572,8 +572,8 @@ fieldset:disabled .btn {
     gap: 30px;
   }
   .shape {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 210px;
+    max-height: 210px;
     top: 150px;
   }
   .footer {
